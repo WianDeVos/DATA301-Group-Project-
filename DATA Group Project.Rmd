@@ -9,6 +9,33 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+*Questions:*
+
+\hl{Track 1 - Geography and deprivation:}
+
+Stage 1: "Are crashes worse in some parts of NZ than others?"
+
+Stage 2: "Do regions with higher socioeconomic deprivation have higher rates of serious/fatal crashes per capita or per Km of road?"
+
+Stage 3: "After adjusting for population density and traffic volume, is there an association between area-level deprivation decile and serious-injury crash rate at the territorial authority level, 2015-2024?"
+
+\hl{Track 2 - Vehicle age/type and crash risk:}
+
+Stage 1: "Do older cars crash more?"
+
+Stage 2: "Is vehicle age associated with crash severity, using the Motor Vehicle Register to get flee age distribution as a denominator?"
+
+Stage 3: "Controlling for vehicle type and region, is there a relationship between vehicle age and the odds of a crash being fatal/serious vs minor and does this differ between urban and rural crashes?"
+
+\vspace{0.75cm}
+
+\hl{Track 3 - Vulnerable road users:}
+
+Stage 1: "Are cyclists/pedestrians at particular risk somewhere?"
+
+Stage 2: "Do pedestrian/cyclist crashes cluster in particular urban areas relative to population and to StatsNZ commuting/journey-to-work data?"
+
+Stage 3: "Is there a spatial hot-spot pattern (e.g. via kernel density or spatial scan statistics) for pedestrian crashes in [city], and does it align with areas of high active-transport commuting share from the Census?"
 
 ```{r}
 #read in Crash data set
