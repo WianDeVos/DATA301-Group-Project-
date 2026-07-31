@@ -15,9 +15,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Stage 1: "Are crashes worse in some parts of NZ than others?"
 
-Stage 2: "Do regions with higher socioeconomic deprivation have higher rates of serious/fatal crashes per capita or per Km of road?"
+Stage 2: "Is crash rate per capita associated with population density across NZ territorial authorities, using CAS crash counts and StatsNZ population/land area data?"
 
-Stage 3: "After adjusting for population density and traffic volume, is there an association between area-level deprivation decile and serious-injury crash rate at the territorial authority level, 2015-2024?"
+Stage 3: "Controlling for region, is population density at the TLA level associated with the rate of serious/fatal crashes per capita, 2018–2023, and does this relationship differ between urban and open-road crash environments (as classified by CAS's derived urban variable)?"
+
+**final question**
+
+Is population density at the territorial authority level associated with the rate of serious/fatal road crashes per capita in New Zealand, and does this association hold once broad regional differences are accounted for?
 
 \hl{Track 2 - Vehicle age/type and crash risk:}
 
